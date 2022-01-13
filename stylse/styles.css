@@ -16,6 +16,7 @@
   /* outline: 2px solid tomato; */
 }
 
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--body-color);
@@ -202,11 +203,6 @@ body {
 }
 
 
-
-
-
-
-
 .features {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -344,14 +340,18 @@ body {
   fill: var(--text-white-color);
 }
 /* -----------------CLIENT---------------- */
+.client {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .client-title {
 font-size: 36px;
 line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--headlines-color);
-padding-top: 94px;
-padding-bottom: 50px;
+margin-bottom:50px;
 }
 .client-list {
   display: flex;
@@ -359,7 +359,6 @@ padding-bottom: 50px;
 }
 .client-item {
   margin-right: 30px;
-  padding-bottom: 94px;
 }
 .client-item:last-child {
   margin-right: 0;
