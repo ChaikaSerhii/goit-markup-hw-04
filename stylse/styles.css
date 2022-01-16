@@ -13,7 +13,6 @@
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  /* outline: 2px solid tomato; */
 }
 
 
@@ -429,9 +428,6 @@ margin-bottom:50px;
 .project-list {
   display: flex;
   flex-wrap: wrap;
-  /* margin-right: -30px;
-margin-bottom: -30px; */
-
 }
 .project-item {
   background-color: var(--text-white-color);
@@ -453,6 +449,38 @@ margin-bottom: -30px; */
 .project-item:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
+.projeсt-image {
+  display: block;
+}
+.projeсt-image-conteiner {
+  position: relative;
+}
+
+.projeсt-image-description {
+  position: absolute;
+  background-color: rgba(33, 150, 243, 0.9);
+  color: var(--text-white-color);
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 63px 24px;
+}
+.projeсt-image-description:hover {
+  opacity: 1;
+  transform: ;
+  transition: transformx 250ms ease;
+}
+.image-description {
+  width: 322px;
+height: 168px;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0.03em;
+}
+
+
 .project-card {
   padding: 20px 24px;
 }
@@ -475,9 +503,7 @@ margin-bottom: -30px; */
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
-.projeсt-image {
-  display: block;
-}
+
 
 /* -----footer-------- */
 .footer-block {
@@ -549,7 +575,6 @@ margin-bottom: 20px;
 }
 .join-list {
   display: flex;  
-  /* justify-content: center; */
 }
 .join-item + .join-item {
   margin-left: 10px;
@@ -571,6 +596,7 @@ margin-bottom: 20px;
   
 }
 .join-icon {
-  /* fill: var(--text-white-color); */
-  
 }
+/* -------навчання---------- */
+
+
